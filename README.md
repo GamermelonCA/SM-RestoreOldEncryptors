@@ -12,10 +12,10 @@ Fun Fact today is the 5th year anavarsary of me owning and playing the game (and
 - Modified to fix Encrypor State Syncing when destoryed
 - Modified to fix Encrypor State Syncing when detached from creation
   Checks:
-  - On TNT Blowup
-  - On Player Remove
-  - On Unload
-  - Applies in warehouse
+    - On TNT Blowup
+    - On Player Remove
+    - On Unload
+    - Applies in warehouse
 ### Todo:
 - Restore Old Encryptor / Protector Room in Warehouse (See Lower)
 - Add the battery funtionality taked about in description
