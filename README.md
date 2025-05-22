@@ -36,14 +36,14 @@ Currently I cannot change the warehouse prefab as any changes i do lead to it be
 
 Other key notes:
 - to get all of the survival specific stuff in the tile editor:
-  > use the mod manager
-  > custom game (survival template)
-  > editor
-  > tile editor
-  > open tile (scroll to bottom)
-  > third "Warehouse interior" at the top
-  > Object list: Search Pipe
-  > Open prefab.
+  1. use the mod manager
+  2. custom game (survival template)
+  3. editor
+  4. tile editor
+  5. open tile (scroll to bottom)
+  6. third "Warehouse interior" at the top
+  7. Object list: Search Pipe
+  8. Open prefab.
 - the blueprints covering up the old layout are the only ones in that prefab, they are:
     - kit_warehouse_storage_2ndFloor_Filler
     - kit_warehouse_storage_ceiling_8x8
