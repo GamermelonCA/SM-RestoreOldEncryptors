@@ -29,10 +29,10 @@ Current Issue: Game crashed when loading moddified prefab
 
 I have figured out that i would need to edit the prfab and which blueprints in the prefab that cover up the old encryptor area. Alongside that using the images off "https://scrapmechanic.fandom.com/wiki/Encryptor" i would want to add the missing parts.
 Currently I cannot change the warehouse prefab as any changes i do lead to it being a crash, so far i have tried:
-[Crash] - Opening the Warehouse tile and navigating to the prefab in the creative tile editor > Requires Creative mod that adds survival parts
-[Crash] - Opening the Warehouse tile and navigating to the prefab in the custom gamemode tile editor though the mod tool
-[Crash] - Using a hex editor and manualy searching for the blueprints to remove
-[Intended Behaviour] - Swapping the Prefab with another of the same size and renaming it.
+        [Crash] - Opening the Warehouse tile and navigating to the prefab in the creative tile editor > Requires Creative mod that adds survival parts
+        [Crash] - Opening the Warehouse tile and navigating to the prefab in the custom gamemode tile editor though the mod tool
+        [Crash] - Using a hex editor and manualy searching for the blueprints to remove
+        [Intended Behaviour] - Swapping the Prefab with another of the same size and renaming it.
 
 Other key notes:
 - to get all of the survival specific stuff in the tile editor:
