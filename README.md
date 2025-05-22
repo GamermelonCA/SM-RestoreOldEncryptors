@@ -11,7 +11,7 @@ Fun Fact today is the 5th year anavarsary of me owning and playing the game (and
 - Restored Old Functionality
 - Modified to fix Encrypor State Syncing when destoryed
 - Modified to fix Encrypor State Syncing when detached from creation
-  Checks:
+Checks:
     - On TNT Blowup
     - On Player Remove
     - On Unload
@@ -24,7 +24,7 @@ Fun Fact today is the 5th year anavarsary of me owning and playing the game (and
 Current Issue: Game crashed when loading moddified prefab
 - Warehouse world are made up of the "tile" stored in Survival/DungeonTiles, these hold the data todo with the "Prefabs" that make up the warehouse layout (as far as i can tell)
 - The "Prefabs" that make up the "tile" are stored in Survival/LocalPrefabs, these hold the data todo with the "blueprints" that make up the "Prefab" (as far as i can tell)
-  - The "Prefabs" use the file extension .PREFAB which A: is not read by the built in SM Tile editor & B: is not a JSON (or other readable) format & C: is not a tile in disquise by chaning the exrension to .tile
+    - The "Prefabs" use the file extension .PREFAB which A: is not read by the built in SM Tile editor & B: is not a JSON (or other readable) format & C: is not a tile in disquise by chaning the exrension to .tile
 - The "Blueprints" hold the Shapes/Parts (I have not looked in to this anymore)
 
 I have figured out that i would need to edit the prfab and which blueprints in the prefab that cover up the old encryptor area. Alongside that using the images off "https://scrapmechanic.fandom.com/wiki/Encryptor" i would want to add the missing parts.
@@ -37,7 +37,7 @@ Currently I cannot change the warehouse prefab as any changes i do lead to it be
 Other key notes:
 - to get all of the survival specific stuff in the tile editor use the mod manager > custom game (survival template) > editor > tile editor > open tile (scroll to bottom) > third "Warehouse interior" at the top > Object list: Search Pipe > Open prefab.
 - the blueprints covering up the old layout are the only ones in that prefab, they are:
-  - kit_warehouse_storage_2ndFloor_Filler
-  - kit_warehouse_storage_ceiling_8x8
-  - kit_warehouse_utilityclutter_ducts_bracket
-  - kit_warehouse_storage_wall_middle_x32
+    - kit_warehouse_storage_2ndFloor_Filler
+    - kit_warehouse_storage_ceiling_8x8
+    - kit_warehouse_utilityclutter_ducts_bracket
+    - kit_warehouse_storage_wall_middle_x32
