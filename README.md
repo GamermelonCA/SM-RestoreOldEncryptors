@@ -7,6 +7,7 @@ There are two folders one labled [Dev], this has G_SurvivalDev = true included i
 ## Minor Update 32/05/2023
 ended up contacting sm modder illumina over discord who was the one that uploaded the screenshots onto the wiki. they showed me the existing mod "Scrap Mechanic Parts Remake" by them.
 > Incredibly cool mod, love the animations and textures
+
 Unfortinalty there was no luck sourcing the PREFAB files that i am after
 
 Couple new things added to the Todolist:
