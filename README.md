@@ -57,6 +57,7 @@ According the part description "Hides the connections on your creations from oth
 I do want to add this functionality into the game along with some QOL that match it:
 - Allowing a logic input & matching the encryptor state to that logic
 - Only allowing the player that placed the encryptor the interact with it
+
 Acouple more details regarding the battery container:
 - Drains one battery every 10-15 seconds (would need testing)
 - only drains the batterys if the encryptor is active
