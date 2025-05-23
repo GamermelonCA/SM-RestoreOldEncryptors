@@ -13,6 +13,8 @@ Unfortinalty there was no luck sourcing the PREFAB files that i am after
 Couple new things added to the Todolist:
 - Fix Encryptors not encrypting parts attached to parts (though pistons and bearings)
 - Make Destructable parts non destructable when encrpted
+- Remembering state on re-log (auto decrypt for premantly stuck parts)
+- Defult State off when placed
 
 ## Current Progress 22/05/2025
 > Fun Fact today is the 5th year anavarsary of me owning and playing the game (and now i have over 800 hours)
