@@ -5,7 +5,7 @@ The current files just restore the functionality to the encryptors themselves no
 There are two folders one labled [Dev], this has G_SurvivalDev = true included if you want otherwise use the regular version
 
 ## Current Progress 22/05/2025
-Fun Fact today is the 5th year anavarsary of me owning and playing the game (and now i have over 800 hours)
+> Fun Fact today is the 5th year anavarsary of me owning and playing the game (and now i have over 800 hours)
 ### Done:
 - Restored Animations
 - Restored Old Functionality
@@ -49,3 +49,9 @@ Other key notes:
     - kit_warehouse_storage_ceiling_8x8
     - kit_warehouse_utilityclutter_ducts_bracket
     - kit_warehouse_storage_wall_middle_x32
+
+### Adding the battery functionality
+I havent looked in to doing this yet but i have some ideas on what i want to happen.
+According the part description "Hides the connections on your creations from other mechanics. Connect it to a Battery container." / "Helps protecting your creation from damage. Connect it to a Battery container." It mensions connecting the encryptors to a battery container which is not refenced anywhere in the old encryptor code left by the devs
+
+Test Text
