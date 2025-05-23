@@ -4,6 +4,15 @@ This is a personal project where I restore the functionality of the encryptors i
 The current files just restore the functionality to the encryptors themselves nothing else additinal
 There are two folders one labled [Dev], this has G_SurvivalDev = true included if you want otherwise use the regular version
 
+## Minor Update 32/05/2023
+ended up contacting sm modder illumina over discord who was the one that uploaded the screenshots onto the wiki. they showed me the existing mod "Scrap Mechanic Parts Remake" by them.
+> Incredibly cool mod, love the animations and textures
+Unfortinalty there was no luck sourcing the PREFAB files that i am after
+
+Couple new things added to the Todolist:
+- Fix Encryptors not encrypting parts attached to parts (though pistons and bearings)
+- Make Destructable parts non destructable when encrpted
+
 ## Current Progress 22/05/2025
 > Fun Fact today is the 5th year anavarsary of me owning and playing the game (and now i have over 800 hours)
 ### Done:
