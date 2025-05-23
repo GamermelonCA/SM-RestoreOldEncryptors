@@ -52,6 +52,12 @@ Other key notes:
 
 ### Adding the battery functionality
 I havent looked in to doing this yet but i have some ideas on what i want to happen.
-According the part description "Hides the connections on your creations from other mechanics. Connect it to a Battery container." / "Helps protecting your creation from damage. Connect it to a Battery container." It mensions connecting the encryptors to a battery container which is not refenced anywhere in the old encryptor code left by the devs
+According the part description "Hides the connections on your creations from other mechanics. Connect it to a Battery container." / "Helps protecting your creation from damage. Connect it to a Battery container." It mentions connecting the encryptors to a battery container which is not refenced anywhere in the old encryptor code left by the devs
 
-Test Text
+I do want to add this functionality into the game along with some QOL that match it:
+- Allowing a logic input & matching the encryptor state to that logic
+- Only allowing the player that placed the encryptor the interact with it
+Acouple more details regarding the battery container:
+- Drains one battery every 10-15 seconds (would need testing)
+- only drains the batterys if the encryptor is active
+- automaticaly turn off when runs out of fuel
