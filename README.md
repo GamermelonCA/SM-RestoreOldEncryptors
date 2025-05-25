@@ -9,15 +9,20 @@ There are two folders one labled [Dev], this has G_SurvivalDev = true included i
 - Restored Animations
 - Restored Old Functionality
 - Modified to fix Encrypor State Syncing when destoryed
-- Modified to fix Encrypor State Syncing when detached from creation
+- Modified to fix Encrypor State Syncing when detached from creation.
 Checks:
     - On TNT Blowup
     - On Player Remove
     - On Unload
     - Applies in warehouse
 - Restore Old Encryptor / Protector Room in Warehouse (Details in Release)
+- [Bugs] Defult State off when placed excluding warehouses
 ### Todo:
-- Add the battery funtionality taked about in description
+- Add the battery funtionality talked about in description
+- Fix encryptor functionality in warehouse
+- Fix Encryptors not encrypting parts attached to parts (though pistons and bearings)
+- Make Destructable parts non destructable when encrypted
+- Optimise and Cleanup code
 
 ## Minor Update 23/05/2023
 ended up contacting sm modder illumina over discord who was the one that uploaded the screenshots onto the wiki. they showed me the existing mod "Scrap Mechanic Parts Remake" by them.
