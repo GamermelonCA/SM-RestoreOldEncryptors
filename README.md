@@ -4,7 +4,22 @@ This is a personal project where I restore the functionality of the encryptors i
 The current files just restore the functionality to the encryptors themselves nothing else additinal
 There are two folders one labled [Dev], this has G_SurvivalDev = true included if you want otherwise use the regular version
 
-## Minor Update 32/05/2023
+## Current Progress 25/05/2025
+### Done:
+- Restored Animations
+- Restored Old Functionality
+- Modified to fix Encrypor State Syncing when destoryed
+- Modified to fix Encrypor State Syncing when detached from creation
+Checks:
+    - On TNT Blowup
+    - On Player Remove
+    - On Unload
+    - Applies in warehouse
+- Restore Old Encryptor / Protector Room in Warehouse (Details in Release)
+### Todo:
+- Add the battery funtionality taked about in description
+
+## Minor Update 23/05/2023
 ended up contacting sm modder illumina over discord who was the one that uploaded the screenshots onto the wiki. they showed me the existing mod "Scrap Mechanic Parts Remake" by them.
 > Incredibly cool mod, love the animations and textures
 
