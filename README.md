@@ -1,96 +1,33 @@
 # SM-RestoreOldEncryptors
-This is a personal project where I restore the functionality of the encryptors in scrap mechanic.
+This is a scrap mechanic **File mod** that restores the old functionality of the Encryptor & Protector before they were removed in the first public release of survival
 
-The current files just restore the functionality to the encryptors themselves nothing else additinal
-There are two folders one labled [Dev], this has G_SurvivalDev = true included if you want otherwise use the regular version
+I dont have accsess to any of the survival early accsess files, this was put together from screenshots from "https://scrapmechanic.fandom.com/wiki/Encryptor" and old code and descriptions left in by the devs
 
-## Current Progress 25/05/2025
-### Done:
-- Restored Animations
-- Restored Old Functionality
-- Modified to fix Encrypor State Syncing when destoryed
-- Modified to fix Encrypor State Syncing when detached from creation.
-Checks:
-    - On TNT Blowup
-    - On Player Remove
-    - On Unload
-    - Applies in warehouse
-- Restore Old Encryptor / Protector Room in Warehouse (Details in Release)
-- [Bugs] Defult State off when placed excluding warehouses
-### Todo:
-- Add the battery funtionality talked about in description
-- Fix encryptor functionality in warehouse
-- Fix Encryptors not encrypting parts attached to parts (though pistons and bearings)
-- Make Destructable parts non destructable when encrypted
-- Optimise and Cleanup code
+### Current working versions (Tested)
+- 0.7.3 (Latest as of may 2025)
 
-## Minor Update 23/05/2023
-ended up contacting sm modder illumina over discord who was the one that uploaded the screenshots onto the wiki. they showed me the existing mod "Scrap Mechanic Parts Remake" by them.
-> Incredibly cool mod, love the animations and textures
+## Details
+Functionality on decryping and encrpting is handeld though leftover code, I have reformated it to fix bugs including permantly encrypting things.
 
-Unfortinalty there was no luck sourcing the PREFAB files that i am after
+The warehouse rooms encryptor have been restored to what they used to look like (Check Wiki Screenshots). Scrap mechanic dosent allow you to edit the prefab files in any way otherwise it just crashed so to workourd this i have editied the file to change nothing apart from which blueprint it is pointing to (by keeping the name the same charecter length) (This was though a hex editor) and created almost blank blueprints that contain one piece of glass that is 40 blocks raised. To provide details on the podiums themselves i simiply edited them with the added details.
+> Due to this process there are singular glass blocks somewhere in the warehouse celiling XD
 
-Couple new things added to the Todolist:
-- Fix Encryptors not encrypting parts attached to parts (though pistons and bearings)
-- Make Destructable parts non destructable when encrpted
-- Remembering state on re-log (auto decrypt for premantly stuck parts)
-- Defult State off when placed
+The battery functionality is from the description of the part which mensions it. It currently drains one battery every 5 seconds (which may be ajusted in the future) and the encryptor itself can be controlled by a logic input and it has a logic output.
 
-## Current Progress 22/05/2025
-> Fun Fact today is the 5th year anavarsary of me owning and playing the game (and now i have over 800 hours)
-### Done:
-- Restored Animations
-- Restored Old Functionality
-- Modified to fix Encrypor State Syncing when destoryed
-- Modified to fix Encrypor State Syncing when detached from creation
-Checks:
-    - On TNT Blowup
-    - On Player Remove
-    - On Unload
-    - Applies in warehouse
-### Todo:
-- Restore Old Encryptor / Protector Room in Warehouse (See Lower)
-- Add the battery funtionality taked about in description
+This mod is a file mod due to the fact that the blueprints and prefabs that make up the warehouses are only stored in your survival folder and custom game dosent have any independent way of adjusting them.
 
-### Restoring the Old Encryptor / protector room in warehouse
-Current Issue: Game crashed when loading moddified prefab
-- Warehouse world are made up of the "tile" stored in Survival/DungeonTiles, these hold the data todo with the "Prefabs" that make up the warehouse layout (as far as i can tell)
-- The "Prefabs" that make up the "tile" are stored in Survival/LocalPrefabs, these hold the data todo with the "blueprints" that make up the "Prefab" (as far as i can tell)
-    - The "Prefabs" use the file extension .PREFAB which A: is not read by the built in SM Tile editor & B: is not a JSON (or other readable) format & C: is not a tile in disquise by chaning the exrension to .tile
-- The "Blueprints" hold the Shapes/Parts (I have not looked in to this anymore)
+## Installation
+In the release there are two folders, the one labeled [Dev] has g_survivalDev = true included. If you do not know which one to use, use the non dev one. For now ignore the Uninstall folder
+1. Go to steam and click on Scrap Mechanic
+2. On the right side of the screen hit the ⚙ icon then go to Manage > Browse Local Files
+3. In another file exporer window Download and Exract the mod files
+4. Drag and Merge the files. Make sure you copy the mod files into the game files
+5. You will need to replace 7 files
 
-I have figured out that i would need to edit the prfab and which blueprints in the prefab that cover up the old encryptor area. Alongside that using the images off "https://scrapmechanic.fandom.com/wiki/Encryptor" i would want to add the missing parts.
-Currently I cannot change the warehouse prefab as any changes i do lead to it being a crash, so far i have tried:
-- [Crash] - Opening the Warehouse tile and navigating to the prefab in the creative tile editor > Requires Creative mod that adds survival parts
-- [Crash] - Opening the Warehouse tile and navigating to the prefab in the custom gamemode tile editor though the mod tool
-- [Crash] - Using a hex editor and manualy searching for the blueprints to remove
-- [Intended Behaviour] - Swapping the Prefab with another of the same size and renaming it.
-
-Other key notes:
-- to get all of the survival specific stuff in the tile editor:
-  1. use the mod manager
-  2. custom game (survival template)
-  3. editor
-  4. tile editor
-  5. open tile (scroll to bottom)
-  6. third "Warehouse interior" at the top
-  7. Object list: Search Pipe
-  8. Open prefab.
-- the blueprints covering up the old layout are the only ones in that prefab, they are:
-    - kit_warehouse_storage_2ndFloor_Filler
-    - kit_warehouse_storage_ceiling_8x8
-    - kit_warehouse_utilityclutter_ducts_bracket
-    - kit_warehouse_storage_wall_middle_x32
-
-### Adding the battery functionality
-I havent looked in to doing this yet but i have some ideas on what i want to happen.
-According the part description "Hides the connections on your creations from other mechanics. Connect it to a Battery container." / "Helps protecting your creation from damage. Connect it to a Battery container." It mentions connecting the encryptors to a battery container which is not refenced anywhere in the old encryptor code left by the devs
-
-I do want to add this functionality into the game along with some QOL that match it:
-- Allowing a logic input & matching the encryptor state to that logic
-- Only allowing the player that placed the encryptor the interact with it
-
-Acouple more details regarding the battery container:
-- Drains one battery every 10-15 seconds (would need testing)
-- only drains the batterys if the encryptor is active
-- automaticaly turn off when runs out of fuel
+## Unistall
+In the release there is unistall folder download and extract that.
+Merge the files from the uninstall folder with your game files. (Repeat the steps from the install guide)
+Custom Files will remain however they will be inactive. If you do not want these:
+1. Go to scrap mechanic on steam
+2. On the right side of the screen hit the ⚙ icon then go to Properies, This will open up a new window
+3. On the left go to Installed Files > Verify integrity of game files.
