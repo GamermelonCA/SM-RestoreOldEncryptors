@@ -5,6 +5,8 @@ I don't have access to any of the survival early access files, this was put toge
 
 ### Current working versions (Tested)
 - 0.7.3 (Latest as of may 2025)
+- 0.7+ (Assuming where 0.6.6 works)
+- 0.6.6
 
 This is my first project modding project & working with lua so there may be bugs (even with it being relatively small) please put any issues in the issues, I don't want to release a half baked project.
 
