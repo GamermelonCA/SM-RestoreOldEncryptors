@@ -3,7 +3,7 @@ This is a scrap mechanic **File mod** that restores the old functionality of the
 
 I don't have access to any of the survival early access files, this was put together from screenshots from "https://scrapmechanic.fandom.com/wiki/Encryptor" and old code and descriptions left in by the devs
 
-### Current working versions (Tested)
+### Current working versions
 - 0.7.3 (Latest as of may 2025)
 - 0.7+ (Assuming where 0.6.6 works)
 - 0.6.6
