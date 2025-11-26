@@ -21,14 +21,14 @@ The battery functionality is from the description of the part which mentions it.
 This mod is a file mod due to the fact that the blueprints and prefabs that make up the warehouses are only stored in your survival folder and the custom game doesn't have any independent way of adjusting them.
 
 ## Installation
-In the release there are two folders, the one labeled [Dev] has g_survivalDev = true included. If you do not know which one to use, use the non dev one. For now ignore the Uninstall folder
+In the release there are two folders, the one labelled [Dev] has g_survivalDev = true included. If you do not know which one to use, use the non dev one. For now ignore the Uninstall folder
 1. Go to steam and click on Scrap Mechanic
 2. On the right side of the screen hit the ⚙ icon then go to Manage > Browse Local Files
 3. In another file explorer window Download and Extract the mod files
 4. Drag and Merge the files. Make sure you copy the mod files into the game files
 5. You will need to replace 7 files
 
-## Unistall
+## Uninstall
 In the release there is uninstall folder download and extract that.
 Merge the files from the uninstall folder with your game files. (Repeat the steps from the install guide)
 Custom Files will remain however they will be inactive. If you do not want these:
